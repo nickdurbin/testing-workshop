@@ -1,5 +1,7 @@
 # Testing Workshop
 
+Added all dependencies and ran npm run setup --silent
+
 👋 hi there! My name is [Kent C. Dodds](https://kentcdodds.com)! This is a
 workshop repo to teach you about testing JavaScript applications.
 
@@ -26,22 +28,24 @@ workshop repo to teach you about testing JavaScript applications.
 ## Table of Contents
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-- [Topics covered](#topics-covered)
-- [Branches](#branches)
-- [System Requirements](#system-requirements)
-- [Setup](#setup)
-- [Running the app](#running-the-app)
-- [About the app](#about-the-app)
-  - [Continuous Integration](#continuous-integration)
-  - [Hosting](#hosting)
-  - [Register and Login](#register-and-login)
-- [Troubleshooting](#troubleshooting)
-- [Structure](#structure)
-- [Contributors](#contributors)
-- [LICENSE](#license)
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+* [Topics covered](#topics-covered)
+* [Branches](#branches)
+* [System Requirements](#system-requirements)
+* [Setup](#setup)
+* [Running the app](#running-the-app)
+* [About the app](#about-the-app)
+  * [Continuous Integration](#continuous-integration)
+  * [Hosting](#hosting)
+  * [Register and Login](#register-and-login)
+* [Troubleshooting](#troubleshooting)
+* [Structure](#structure)
+* [Contributors](#contributors)
+* [LICENSE](#license)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -69,13 +73,13 @@ want to switch to the appropriate branch for this workshop. Otherwise the code
 you're looking at may not be exactly the same as the code used in the setting
 you're working with.
 
-- Frontend Masters 2017 [`fem`](https://github.com/kentcdodds/testing-workshop/tree/fem)
+* Frontend Masters 2017 [`fem`](https://github.com/kentcdodds/testing-workshop/tree/fem)
 
 ## System Requirements
 
-- [git][git] v2.14.1 or greater
-- [NodeJS][node] v8.9.4 or greater
-- [npm][npm] v5.6.0 or greater
+* [git][git] v2.14.1 or greater
+* [NodeJS][node] v8.9.4 or greater
+* [npm][npm] v5.6.0 or greater
 
 All of these must be available in your `PATH`. To verify things are set up
 properly, you can run this:
@@ -144,8 +148,8 @@ generated).
 
 We're using two CI services:
 
-- [Travis][build] (Linux): find config in `.travis.yml`
-- [AppVeyor][win-build] (Windows): find config in `appveyor.yml`
+* [Travis][build] (Linux): find config in `.travis.yml`
+* [AppVeyor][win-build] (Windows): find config in `appveyor.yml`
 
 ### Hosting
 
@@ -268,6 +272,7 @@ able to leave you command line in the root directory for the whole workshop.
 Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+
 <!-- prettier-ignore -->
 | [<img src="https://avatars.githubusercontent.com/u/1500684?v=3" width="100px;"/><br /><sub><b>Kent C. Dodds</b></sub>](https://kentcdodds.com)<br />[💻](https://github.com/kentcdodds/testing-workshop/commits?author=kentcdodds "Code") [📖](https://github.com/kentcdodds/testing-workshop/commits?author=kentcdodds "Documentation") [🚇](#infra-kentcdodds "Infrastructure (Hosting, Build-Tools, etc)") [⚠️](https://github.com/kentcdodds/testing-workshop/commits?author=kentcdodds "Tests") | [<img src="https://avatars3.githubusercontent.com/u/13832392?v=4" width="100px;"/><br /><sub><b>Osama Jandali</b></sub>](https://github.com/osamajandali)<br />[💻](https://github.com/kentcdodds/testing-workshop/commits?author=osamajandali "Code") [🎨](#design-osamajandali "Design") | [<img src="https://avatars2.githubusercontent.com/u/3818515?v=4" width="100px;"/><br /><sub><b>Stefan Ivic</b></sub>](http://stefanivic.me/)<br />[🐛](https://github.com/kentcdodds/testing-workshop/issues?q=author%3Astefanivic "Bug reports") | [<img src="https://avatars2.githubusercontent.com/u/2413413?v=4" width="100px;"/><br /><sub><b>Nick Klepinger</b></sub>](https://github.com/bodiddlie)<br />[🐛](https://github.com/kentcdodds/testing-workshop/issues?q=author%3Abodiddlie "Bug reports") | [<img src="https://avatars2.githubusercontent.com/u/6417910?v=4" width="100px;"/><br /><sub><b>Abinav Seelan</b></sub>](http://abinavseelan.com)<br />[🐛](https://github.com/kentcdodds/testing-workshop/issues?q=author%3Aabinavseelan "Bug reports") | [<img src="https://avatars0.githubusercontent.com/u/2751691?v=4" width="100px;"/><br /><sub><b>Philip Sotirov</b></sub>](http://philipsotirov.com)<br />[🐛](https://github.com/kentcdodds/testing-workshop/issues?q=author%3Afipo "Bug reports") | [<img src="https://avatars3.githubusercontent.com/u/3409645?v=4" width="100px;"/><br /><sub><b>Austin Wood</b></sub>](https://github.com/indiesquidge)<br />[📖](https://github.com/kentcdodds/testing-workshop/commits?author=indiesquidge "Documentation") |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
